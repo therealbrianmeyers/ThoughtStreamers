@@ -1,7 +1,8 @@
 import google.generativeai as genai
-import time 
-import random 
-import spacy 
+import time
+import random
+import spacy.cli
+spacy.cli.download("en_core_web_sm")
 
 # Configure your API key
 genai.configure(api_key="AIzaSyAyWAlF1UCdT1qI5PjKocAitQc_irmiX70")
