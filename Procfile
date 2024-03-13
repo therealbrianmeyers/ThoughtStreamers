@@ -1,0 +1,1 @@
+web: gunicorn ThoughtStreamersv018:app
